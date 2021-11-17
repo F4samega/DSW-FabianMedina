@@ -2,8 +2,11 @@
     margin: 5px;
     border-radius: 3px;
 }
+h1{
+    text-align: center;
+}
 header{
-    background-color: rgb(18, 14, 24);
+    background-color: #999292;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,16 +19,18 @@ header{
 }
 aside{
     grid-column: 1/2;
-    background-color: rgb(159, 92, 226);
+    background-color: #f0b52a;
+    color: white;
 }
 section{
     grid-column: 2/5;
-    background-color: rgb(218, 199, 238);
+    background-color: #005884;
+    color: white;
 }
 
 footer{
     text-align: center;
-    background-color: rgb(2, 31, 2);
+    background-color: #999292;;
     color: white;
     padding: 10px;
 }
@@ -45,7 +50,7 @@ nav ul {
     list-style: none;
     /* padding: 2px; */
     color: #fff;
-    background: black;
+    background: #005884;
 }
 .menu li {
     width: 100%;
@@ -57,7 +62,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background:rgb(209, 173, 146);
+    background:#f0b52a;
     /* height: 25px; */
     text-decoration: none;
 }
@@ -69,11 +74,14 @@ nav ul {
     display: block;
 }
 .menu a:hover {
-    background:blueviolet;
+    background:#f47920;
     color: #fff;
 
 }
-
+/*.iframe{
+    width: 100%;
+}
+*/
 
 
 @media (max-width: 600px) {
